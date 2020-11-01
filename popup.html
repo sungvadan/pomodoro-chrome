@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pomodoro</title>
+    <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+    <div id="time"></div>
+    
+    <div id="div-btn">
+        <button id="start" class="btn">Start</button>
+        <button id="reset" class="btn">Reset</button>
+    </div>
+
+    <div id="div-volume">
+        <img src="volume-up.svg" alt="volume" id="volume" height="20px" style="cursor: pointer;">
+    </div>
+
+    <div style="display: none;">
+        <audio id="alarm">
+            <source src="alarm.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <script type="application/javascript" src="popup.js"></script>
+</body>
+</html>
